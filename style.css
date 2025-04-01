@@ -1,0 +1,87 @@
+@font-face {
+  font-family: myFont;
+  src: url(digital-7.ttf);
+}
+
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background: #192348;
+  color: white;
+  text-align: center;
+}
+
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#score-num1 {
+  font-family: myFont;
+  color: #F94F6D;
+  font-size: 90px;
+
+}
+
+#score-num2 {
+  font-family: myFont;
+  color: #F94F6D;
+  font-size: 90px;
+
+}
+
+#scoreboard{
+  margin-bottom: 20px;
+  background-color: black;
+  width: 155px;
+  height: 120px;
+  border-radius: 5px;
+}
+
+button {
+  font-family: myFont;
+  margin-bottom: 40px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+#reset-btn {
+  margin-top: 20px;
+  background-color:  red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 200px;
+  
+}
+
+#reset-btn:hover {
+  background-color:#F94F6D;
+}
